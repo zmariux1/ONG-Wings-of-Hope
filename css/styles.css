@@ -1,0 +1,634 @@
+:root {
+  --bs-btn-bg-urgency: rgba(255,155,155,0.7);
+  --bs-btn-bg: #9bbdff;
+  --bs-btn-hover: #d3d1d1;
+}
+
+
+
+.colors1 {
+  color: rgba(155,189,255,0.7);
+}
+.colors2 {
+  color: rgb(131, 214, 135);
+}
+.colors3 {
+  color: rgba(255,155,155,0.7);
+}
+.colorStrong {
+  color: var(--bs-btn-bg);
+}
+h2 {
+  color: var(--bs-btn-bg);
+}
+.colors {
+  color: var();
+}
+.colors {
+  color: var();
+}
+
+.custom_gap20 {
+  gap: 20px;
+}
+
+.xl-text {
+  font-size: 50px;
+}
+
+.logoWoH {
+  width: 110px;
+}
+
+.customDonation_Btn {
+  background:  rgba(131, 214, 135, 0.7) !important;
+  padding: 10px 20px;
+}
+.customDonation_Btn2 {
+  display: none;
+}
+
+.centerRows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row
+}
+
+.cutomLang_div_desk {
+  display: flex;
+  align-items: center;
+}
+.cutomLang_div_desk p{
+  font-size: 12px;
+  margin: 0px;
+}
+
+#lang1{
+  width: 35px;
+}
+
+#lang2{
+  width: 35px;
+}
+
+
+
+
+.header {
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.9)), url("../images/header-background - Mid.jpg") center center no-repeat;
+}
+
+.vertical-decoration {
+  top: 12%;
+  width: 24px;
+}
+
+.fa-stack button{ 
+  all: initial;
+  cursor: pointer;
+}
+.fa-stack:hover { 
+  transform: scale(1.1);
+}
+.fa-check {
+  padding-top: 7px !important;
+}
+
+.hr-heading {
+  display: inline-block;
+  width: 3.5rem;
+  height: 0.125rem;
+  margin-top: 0.625rem;
+  border: none;
+  background-color: var(--bs-primary);
+  opacity: 1;
+}
+
+.customSpanH {
+  height: 19rem !important;
+}
+
+.navbar {
+  transition: all 0.5s ease-in-out;
+}
+.customNavFix { /* fix the mobile navbar background color to no longer disappear   */
+  background-color: var(--bs-body-bg) !important; 
+}
+
+.navbar-sticky {
+  opacity: 0.8;
+}
+
+.negativeSpace {
+  margin-bottom: -30px;
+  padding: 0px;
+}
+
+
+section {
+  margin-top: 100px;
+}
+
+.partnerLogo {
+  height: 40px;
+  margin: 18px 0;
+}
+
+.details .vertical-decoration {
+  top: 0;
+  left: 0;
+  width: 24px;
+}
+
+.custom_col {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.custom_row {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;  
+}
+
+.custom_about_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: none;
+  align-items: center;
+}
+
+.about_left {
+  /* width: 460px; */
+}
+
+.about_testImg_left{
+  height: 100%;
+  width: 100%;
+  align-items: end;
+  justify-content: space-between;
+}
+.about_testImg_left p{
+  flex-wrap: wrap;
+  text-align: justify;
+}
+
+.about_right {
+  display: flex;
+  flex-direction: row; 
+}
+
+.about_testImg_right p{
+  flex-wrap: wrap;
+  text-align: justify;
+}
+
+.about_image-container {
+  position: relative; 
+}
+
+.seeMe3 {
+  display: none;
+}
+.seeMe1 {
+  display: none;
+}
+.seeMe2 {
+  display: none;
+}
+
+.aboutImgs {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  object-position: center center; 
+}
+.about_image-container1{
+  /* max-width: 220px; */
+  height: 300px;
+}
+.about_image-container2{
+  /* max-width: 220px; */
+  /* height: 100%; */
+}
+.about_image-container3{
+  height: 40vh;
+}
+
+.about_tagDisplay {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: var(--bs-btn-bg); 
+  /* height: 250px; */
+  /* width: 460px; */
+  padding: 20px;
+  text-align: center;
+}
+
+.about_tagDisplay p {
+  font-family: 'Poppins', sans-serif; 
+  font-size: 3rem; 
+  margin: 0; 
+  line-height: 1.2; 
+  color: #fff; 
+}
+
+.about_tagDisplay h1 {
+  font-family: 'Poppins', sans-serif; 
+  font-size: 3.5rem; 
+  margin: 0; 
+  line-height: 1; 
+  color: #fff; 
+  font-weight: 600; 
+}
+
+
+.activity1 {
+  background-size: cover;
+  height: 120px;
+  text-align: center;
+  background: radial-gradient(circle, rgba(155,189,255,0.4) 71%, rgba(255, 255, 255, 0.9) 99%), url("../images/Activity1_L.jpg") center center no-repeat;
+}
+
+.activity2 {
+  background-size: cover;
+  height: 120px;
+  text-align: center;
+  background: radial-gradient(circle, rgba(155,255,160,0.4) 71%, rgba(255, 255, 255, 0.9) 99%), url("../images/Activity2.jpg") center center no-repeat;
+}
+
+.activity3 {
+  background-size: cover;
+  height: 120px;
+  text-align: center;
+  background: radial-gradient(circle, rgba(255,155,155,0.4) 71%, rgba(255, 255, 255, 0.9) 99%), url("../images/Activity3.1.png") center center no-repeat;
+}
+
+.customActivity_space {
+  width: 100%;
+  justify-content: space-between;
+}
+
+
+.hoverScale002:hover {
+  transform: scale(1.02);
+  transition: 0.2s;
+}
+.roundRightCorners:hover {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  transform: .2s;
+}
+
+.centerMoreDetails_text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.customTabsContainer {
+  border-bottom: 2px solid var(--bs-btn-bg);
+  /* padding: 0 17vw 5px 17vw; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tab-button {
+  background-color: #e0e0e0; /* Slightly darker grey for tabs */
+  color: #333; /* Dark text */
+  border: none;
+  padding: 12px 20px;
+  margin-right: 2px; /* Space between tabs */
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px 5px 0 0;
+  white-space: nowrap; /* Prevent text wrapping */
+  transition: background-color 0.2s ease;
+  width: 200px;
+}
+.tab-button:hover{
+  background-color: var(--bs-btn-hover); /*  a shade of blue for active tabs */
+  color: white;
+  transition: background-color 0.2s ease;
+}
+.tab-button.active{
+  background-color: var(--bs-btn-bg); /*  a shade of blue for active tabs */
+  color: white;
+  transition: background-color 0.2s ease;
+}
+
+/* Remove focus outline for better appearance */
+.tab-button:focus {
+  outline: none;
+  transition: background-color 0.2s ease;
+}
+
+.customHideImg {
+  display: none;
+}
+
+.kids{
+  margin-top: 30vh;
+  width: 100%; /* bug  */
+  height: auto;
+}
+.customGreyLine {
+  background: #f3f3f1;
+  color: #f3f3f1;
+}
+
+.myContacts {
+  display: none;
+}
+
+.donationBr {
+  display: none;
+}
+
+
+/* Gallery  */
+.hoverscale_1:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Pagination  */
+.pagination .page-item.active .page-link {
+  background-color: #FF6F61; 
+  border-color: #FF6F61;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.pagination .page-link {
+  color: #333;
+  font-weight: 500;
+}
+/* .pagination .page-link:hover {
+  background-color: #f8b195;
+  color: white;
+} */
+.pagination .dots {
+  pointer-events: none;
+  color: #888;
+  font-weight: bold;
+  margin: 0 10px; 
+}
+
+
+
+
+/* xxxxxxxxxxxxxxxxxx - Screen sizes - xxxxxxxxxxxxxxxxxxxxxxxxxx */
+@media (min-width: 300px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+
+@media (min-width: 450px) {
+  html {
+    font-size: 89%;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .about_testImg_right{
+    /* max-width: 230px; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+  .about_testImg_right p{
+    max-width: 47%;
+  }
+
+  .about_image-container3{
+    max-width: 50%;
+  }
+
+  .kids{
+    width: 100%; /* bug  */
+    height: auto;
+  }
+  .activity1 {
+    background: radial-gradient(circle, rgba(155,189,255,0.4) 71%, rgba(255, 255, 255, 0.9) 99%), url("../images/Activity1_L.jpg") right center no-repeat;
+  }
+  
+  .activity2 {
+    background: radial-gradient(circle, rgba(155,255,160,0.4) 71%, rgba(255, 255, 255, 0.9) 99%), url("../images/Activity2.jpg") right center no-repeat;
+  }
+
+  .myContacts {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  html {
+    font-size: 75%;
+  }
+
+  .logoWoH {
+    width: 200px;
+  }
+
+  .partnerLogo {
+    height: 50px;
+  }
+
+  .about_testImg_left p{
+    max-width: 47%;
+  }
+  .seeMe3 {
+    display: block;
+  }
+
+  .about_testImg_right{
+    /* max-width: 230px; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .about_image-container1{
+    /* max-width: 220px; */
+    width: 345px;
+    height: 300px;
+  }
+  .about_image-container3{
+    width: 345px;
+    height: 300px;
+  }
+
+  .customActivity_space {
+    width: none;
+    justify-content:flex-start;
+  }
+
+  .customTabsContainer {
+    flex-direction: row;
+  }
+  .kids{
+    /* width: 170px; */
+    height: auto;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .xl-text {
+    font-size: 64px;
+  }
+  
+  .customDonation_Btn2 {
+    display: inline-block;
+  }
+  .header {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0.5)), url("../images/header-background - Mid.jpg") center center no-repeat;
+    text-align: start;
+  }
+
+  .custom_about_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .about_left {
+    width: 480px;
+  }
+  .about_testImg_left p{
+    max-width: 45%;
+  }
+  .about_tagDisplay {
+    height: 321px;
+    width: 480px;
+    text-align: end;
+  }
+  .about_tagDisplay p {
+    font-size: 7rem; /* Adjust size for the paragraph */
+  }
+  .about_testImg_right{
+    display: block;
+    max-width: 230px;
+  }
+  .seeMe1 {
+    display: block;
+  }
+  .about_image-container1{
+    width: none;
+    max-width: 220px;
+    height: 400px;
+    margin-right: 20px;
+    transform: skew(-0.5deg);
+  }
+
+  .about_image-container2{
+    /* height: 500px; */
+    transform: skew(-0.5deg);
+  }
+
+  .activity3 {
+    background: radial-gradient(circle, rgba(255,155,155,0.4) 71%, rgba(255, 255, 255, 0.9) 99%), url("../images/Activity3.1.png") right center no-repeat;
+  }
+
+  .about_image-container3{
+    width: none;
+    max-width: 100%;
+    height: 464px;
+    transform: skew(-0.5deg);
+  }
+  .about_testImg_right p{
+    max-width: none;
+  }
+
+  .customHideImg {
+    display: flex;
+    padding: 50px;
+  }
+
+  .kids{
+    width: 800px; /* bug  */
+  }
+
+  .donationBr {
+    display: block;
+  }
+}
+
+
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 90%;
+  }
+
+  .header {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0.5)), url("../images/header-background\ -\ Large.jpg") right center no-repeat;
+    text-align: start;
+  }
+
+  .about_image-container1{
+    height: 432px;
+    margin-right: 20px;
+  }
+
+  .about_image-container2{
+    /* height: 500px; */
+    min-height: 732px;
+  }
+
+  .about_image-container3{
+    height: 400px;
+  }
+
+  .about_left {
+    width: 520px;
+  }
+
+  .about_testImg_left p{
+    max-width: 50%;
+  }
+
+  .about_tagDisplay {
+    height: 350px;
+    width: 520px;
+  }
+  
+  .customHideImg {
+    padding: 90px;
+  }
+  .seeMe2 {
+    display: block;
+  }
+}
+
+
+
+.cancelMargPad {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.hidden {
+  display: none !important; 
+}
+
+
